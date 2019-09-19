@@ -1,0 +1,14 @@
+header
+{
+    background-color: black;
+    opacity: .75;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1em;
+    max-width: auto;
+    height: auto;
+}
+
+.center{
+    align-content: center;
+}
