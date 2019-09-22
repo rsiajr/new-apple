@@ -39,7 +39,7 @@ h1{
 }
 
 h2{
-    font-size: 1.5rem;
+    font-size: 1.5rem
 }
 
 .inlineblock{
@@ -53,19 +53,54 @@ h2{
 }
 
 .overlay {
-        height: 30px;
-        width:80%;
+        height: 40px;
+        width:98%;
+        color: black;
         border-radius: 2.5px;
-        border-color: gray;
-        background-color: gray;
-        color: whitesmoke;
+        border-color: none;
         border-style: none;
+        background-color: rgb(40, 40, 40);
         opacity: .6;
         background-image: url('/img/glass.png');
         background-repeat: no-repeat;
         background-size: 40px;
         background-position: left;
-        padding: 0px 60px;
+        padding: 0px 50px;
+        margin: 1%;
+}
 
+.bottomborder{
+    border-color: rgb(40, 40, 40);
+    border-style: none none solid none;
+    border-width: .5mm;
+    display: block;
+    margin: 30px;
+    font-size: 1.8rem;
+    color: white;
+    text-decoration: none;
+    padding: 10px none;
+}
+
+.bottomborderone{
+    border-color: rgb(40, 40, 40);
+    opacity: .9;
+    border-style: none none solid none;
+    border-width: .5mm;
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px none;
+}
+
+.bottombordertwo{
+    border-color: rgb(40, 40, 40);;
+    border-style: none none none none;
+    border-width: .5mm;
+    display: block;
+    margin: 30px;
+    font-size: 1.8rem;
+    color: white;
+    text-decoration: none;
+    padding: 10px none;
 }
 
