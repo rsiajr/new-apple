@@ -11,26 +11,61 @@
 header
 {
     background-color: black;
-    color: whits;
+    color: white;
     font-family: Arial, Helvetica, sans-serif;
     /* padding: 15px; */
     max-width: auto;
     height: auto;
 }
 
-
-/* Class-specific */
+/* Classes */
 .center{
     text-align: center;
-    padding: 50px;
+    padding: 15px;
     color: white;
     background-color: black;
 }
 
+.centertwo{
+    text-align: center;
+    padding: 15px;
+    color: black;
+    background-color: whitesmoke;
+}
+
 h1{
     font-size: 3rem;
+    font-weight: bold;
 }
 
 h2{
     font-size: 1.5rem;
 }
+
+.inlineblock{
+    display: inline-block;
+    padding: 15px;
+}
+
+.imagealigncenter{
+    display: inline-block;
+    box-align: middle;
+}
+
+.overlay {
+        height: 30px;
+        width:80%;
+        border-radius: 2.5px;
+        border-color: gray;
+        background-color: gray;
+        color: whitesmoke;
+        border-style: none;
+        opacity: .6;
+        background-image: url('/img/glass.png');
+        background-repeat: no-repeat;
+        background-size: 40px;
+        background-position: left;
+        padding: 0px 60px;
+
+}
+
