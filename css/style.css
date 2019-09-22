@@ -36,10 +36,11 @@ header
 h1{
     font-size: 3rem;
     font-weight: bold;
+    padding: 40px 0 15px 0;
 }
 
 h2{
-    font-size: 1.5rem
+    font-size: 2rem;
 }
 
 .inlineblock{
@@ -60,12 +61,12 @@ h2{
         border-color: none;
         border-style: none;
         background-color: rgb(40, 40, 40);
-        opacity: .6;
-        background-image: url('/img/glass.png');
+        opacity: 1;
+        background-image: url('/img/magniglass.png');
         background-repeat: no-repeat;
-        background-size: 40px;
-        background-position: left;
-        padding: 0px 50px;
+        background-size: 27px;
+        background-position: 3mm;
+        padding: 30px 50px;
         margin: 1%;
 }
 
@@ -78,14 +79,14 @@ h2{
     font-size: 1.8rem;
     color: white;
     text-decoration: none;
-    padding: 10px none;
+    padding: 15px 1px;
 }
 
 .bottomborderone{
     border-color: rgb(40, 40, 40);
     opacity: .9;
     border-style: none none solid none;
-    border-width: .5mm;
+    border-width: .3mm;
     display: block;
     color: white;
     text-decoration: none;
