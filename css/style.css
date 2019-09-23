@@ -60,6 +60,11 @@ h2{
     padding: 15px;
 }
 
+.h2color{
+    color:royalblue;
+    text-decoration: none;
+}
+
 h3{
     color: grey;
     padding: 15px;
@@ -135,6 +140,17 @@ h4{
     padding: 10px none;
 }
 
-.h2color{
-    color:royalblue;
+.searchbuttontext{
+    font-size: 2rem;
+}
+
+.applelogo{
+    display: inline-block;
+    text-align: center;
+}
+
+.cartbutton{
+    display: inline-block;
+    text-align: center;
+    width: 20px;
 }
