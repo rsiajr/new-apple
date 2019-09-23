@@ -30,7 +30,7 @@ header
     text-align: center;
     padding: 15px;
     color: black;
-    background-color: whitesmoke;
+    background-color: rgb(250, 250, 250);
 }
 
 h1{
@@ -50,9 +50,16 @@ h3{
     font-size: 1.5rem;
 }
 
+h4{
+    color: red;
+    padding: 10px;
+    font-size: 1.8rem;
+}
+
 .inlineblock{
     display: inline-block;
     padding: 15px;
+    text-decoration: none;
 }
 
 .imagealigncenter{
@@ -63,7 +70,7 @@ h3{
 .overlay {
         height: 30px;
         width:98%;
-        color: black;
+        color: white;
         border-radius: 2.5px;
         border-color: none;
         border-style: none;
@@ -112,3 +119,6 @@ h3{
     padding: 10px none;
 }
 
+.h2color{
+    color:royalblue;
+}
