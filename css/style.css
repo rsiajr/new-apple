@@ -21,16 +21,32 @@ header
 /* Classes */
 .center{
     text-align: center;
-    padding: 15px;
+    padding: 0 0 40% 0;
     color: white;
     background-color: black;
+    background-image: url('/img/iphone11pro.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom;
 }
 
 .centertwo{
     text-align: center;
-    padding: 15px;
+    padding: 3% 0 30% 0;
     color: black;
     background-color: rgb(250, 250, 250);
+    background-image: url('/img/iphone11.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.centerthree{
+    text-align: center;
+    padding: 3% 0 40% 0;
+    color: black;
+    background-color: rgb(250, 250, 250);
+    background-image: url('/img/applewatch.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom;
 }
 
 h1{
