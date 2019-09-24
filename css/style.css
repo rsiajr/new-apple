@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 *{
-    font-family: roboto;    
+    font-family: roboto;
 }
 
 /* Main sections */
@@ -21,7 +21,7 @@ header
 /* Classes */
 .center{
     text-align: center;
-    padding: 0 0 40% 0;
+    padding: 0 0 60% 0;
     color: white;
     background-color: black;
     background-image: url('/img/iphone11pro.jpg');
@@ -31,7 +31,7 @@ header
 
 .centertwo{
     text-align: center;
-    padding: 1% 0 30% 0;
+    padding: 1% 0 50% 0;
     color: black;
     background-color: rgb(250, 250, 250);
     background-image: url('/img/iphone11.jpg');
@@ -41,7 +41,7 @@ header
 
 .centerthree{
     text-align: center;
-    padding: 3% 0 40% 0;
+    padding: 3% 0 50% 0;
     color: black;
     background-color: rgb(250, 250, 250);
     background-image: url('/img/applewatch.jpg');
@@ -61,7 +61,7 @@ h2{
 }
 
 .h2color{
-    color:royalblue;
+    color:#67a5e4;
     text-decoration: none;
 }
 
@@ -157,4 +157,9 @@ h4{
 
 .hidemenu{
     /* display: none; */
+}
+
+.container{
+    max-width: 50rem;
+    margin: 0 auto;
 }
