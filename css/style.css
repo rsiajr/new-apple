@@ -154,3 +154,7 @@ h4{
     text-align: center;
     width: 20px;
 }
+
+.hidemenu{
+    /* display: none; */
+}
