@@ -17,6 +17,15 @@ header
     height: auto;
 }
 
+.hidemenu {
+    /* display: none; */
+}
+
+.container{
+    max-width: 50rem;
+    margin: 0 auto;
+}
+
 /* Classes */
 .center{
     text-align: center;
@@ -47,6 +56,8 @@ header
     background-repeat: no-repeat;
     background-position: bottom;
 }
+
+/* Headings */
 
 h1{
     font-size: 3rem;
@@ -80,6 +91,8 @@ h4{
     padding: .5rem;
     text-decoration: none;
 }
+
+/* images */
 
 .imagealigncenter{
     display: inline-block;
@@ -151,11 +164,3 @@ h4{
     width: 20px;
 }
 
-.hidemenu {
-    /* display: none; */
-}
-
-.container{
-    max-width: 50rem;
-    margin: 0 auto;
-}
