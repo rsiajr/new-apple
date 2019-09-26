@@ -13,7 +13,6 @@ header
     background-color: black;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    /* padding: 15px; */
     max-width: auto;
     height: auto;
 }
@@ -57,7 +56,6 @@ h1{
 
 h2{
     font-size: 2rem;
-    padding: 15px;
 }
 
 .h2color{
@@ -67,19 +65,19 @@ h2{
 
 h3{
     color: grey;
-    padding: 15px;
+    padding: 1.5rem;
     font-size: 1.5rem;
 }
 
 h4{
     color: red;
-    padding: 10px;
+    padding: 2rem;
     font-size: 1.8rem;
 }
 
 .inlineblock{
     display: inline-block;
-    padding: 15px;
+    padding: .5rem;
     text-decoration: none;
 }
 
@@ -89,9 +87,11 @@ h4{
 }
 
 .overlay {
-        height: 30px;
-        width:98%;
+        display: block;
+        height: auto;
+        width: 98%;
         color: white;
+        font-size: 2em;
         border-radius: 2.5px;
         border-color: none;
         border-style: none;
@@ -99,9 +99,9 @@ h4{
         opacity: 1;
         background-image: url('/img/magniglass.png');
         background-repeat: no-repeat;
-        background-size: 27px;
-        background-position: 3mm;
-        padding: 30px 50px;
+        background-size: 2em;
+        background-position: 3rem;
+        padding: 50%;
         margin: 1%;
 }
 
@@ -140,10 +140,6 @@ h4{
     padding: 10px none;
 }
 
-.searchbuttontext{
-    font-size: 2rem;
-}
-
 .applelogo{
     display: block;
     text-align: center;
@@ -155,7 +151,7 @@ h4{
     width: 20px;
 }
 
-.hidemenu{
+.hidemenu {
     /* display: none; */
 }
 
